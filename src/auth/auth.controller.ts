@@ -11,7 +11,7 @@ import {
 } from '@nestjs/common';
 import {RegisterDto} from "./dtos/register.dto";
 import {UserService} from "../user/user.service";
-import * as bcrypt from 'bcryptjs';
+import * as bcrypt from 'bcrypt';
 import {JwtService} from "@nestjs/jwt";
 import {Response, Request} from "express";
 import {AuthGuard} from "./auth.guard";
